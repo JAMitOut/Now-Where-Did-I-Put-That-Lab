@@ -52,7 +52,7 @@ int main() {
     expect_sub("abc", "", -1);
     expect_sub("", "", -1);
 
-    // --- Stress-ish: repeated chars ---
+    //Stress: repeated chars
     expect_sub("aaaaa", "aa", 0);
     expect_sub("baaab", "aa", 1);
     expect_sub("baaab", "aaa", 1);
